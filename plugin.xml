@@ -9,22 +9,22 @@
         <engine name="cordova" version=">=3.0.0"/>
         </engines>
         <platform name="ios">
-            <preference name="CAMERA_USAGE_DESCRIPTION" default="This app needs camera access"/>
+            <preference name="CAMERA_USAGE_DESCRIPTION" default="Deze app gebruikt de camera om foto's in uw projecten te kunnen plaatsen."/>
             <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
                 <string>$CAMERA_USAGE_DESCRIPTION</string>
             </config-file>
 
-            <preference name="MICROPHONE_USAGE_DESCRIPTION" default="This app needs microphone access"/>
+            <preference name="MICROPHONE_USAGE_DESCRIPTION" default="Deze app gebruikt uw microfoon om geluid aan video's van uw projecten toe te voegen."/>
             <config-file target="*-Info.plist" parent="NSMicrophoneUsageDescription">
                 <string>$MICROPHONE_USAGE_DESCRIPTION</string>
             </config-file>
 
-            <preference name="PHOTOLIBRARY_ADD_USAGE_DESCRIPTION" default="This app needs write-access to photo library"/>
+            <preference name="PHOTOLIBRARY_ADD_USAGE_DESCRIPTION" default="Deze app gebruikt de fotobibliotheek om foto's aan uw projecten toe te voegen."/>
             <config-file target="*-Info.plist" parent="NSPhotoLibraryAddUsageDescription">
                 <string>$PHOTOLIBRARY_ADD_USAGE_DESCRIPTION</string>
             </config-file>
 
-            <preference name="PHOTOLIBRARY_USAGE_DESCRIPTION" default="This app needs read/write-access photo library access"/>
+            <preference name="PHOTOLIBRARY_USAGE_DESCRIPTION" default="Deze app gebruikt de fotobibliotheek om foto's aan uw projecten toe te voegen."/>
             <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
                 <string>$PHOTOLIBRARY_USAGE_DESCRIPTION</string>
             </config-file>
